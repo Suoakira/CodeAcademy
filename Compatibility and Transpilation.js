@@ -27,3 +27,12 @@ let esSixTemplateLiterals = 87.68;
  * new Javascript syntax to old
  */
 
+// Why ES6
+
+var pasta = "Spaghetti"; // ES5 syntax
+
+var meat = "Pancetta"; // ES6 syntax
+
+var sauce = "Eggs and cheese"; // ES6 syntax
+
+var carbonar = "You can make carbonara with " + pasta + "," + meat + " and a sauce made with " + sauce + ".";
