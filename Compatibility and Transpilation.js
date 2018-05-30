@@ -43,5 +43,14 @@ var carbonar = "You can make carbonara with " + pasta + "," + meat + " and a sau
 // npm install babel-preset-env  (installs a babel required pakage)
 // npm run build (builts the npm turns ES6 syntax to ES5 syntax)
 
+// npm init
+
+// npm stands for node pakage manager
+// npm init command creates a package.json in the root directory.
+// a package.json contains information about the current javascript project
+//                - Metadata — This includes a project title, description, authors, and more.
+//                - A list of node packages required for the project — If another developer wants to run your project, npm looks inside package.json and downloads the packages in this list.
+//                - Key-value pairs for command line scripts — You can use npm to run these shorthand scripts to perform some process. In a later exercise, we will add a script that runs Babel and transpiles ES6 to ES5.
+
 
 
