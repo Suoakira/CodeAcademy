@@ -36,3 +36,12 @@ var meat = "Pancetta"; // ES6 syntax
 var sauce = "Eggs and cheese"; // ES6 syntax
 
 var carbonar = "You can make carbonara with " + pasta + "," + meat + " and a sauce made with " + sauce + ".";
+
+// Transpilation with Babel
+
+// npm install babel-cli  (installs babel client)
+// npm install babel-preset-env  (installs a babel required pakage)
+// npm run build (builts the npm turns ES6 syntax to ES5 syntax)
+
+
+
