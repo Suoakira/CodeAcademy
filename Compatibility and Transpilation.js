@@ -53,4 +53,27 @@ var carbonar = "You can make carbonara with " + pasta + "," + meat + " and a sau
 //                - Key-value pairs for command line scripts — You can use npm to run these shorthand scripts to perform some process. In a later exercise, we will add a script that runs Babel and transpiles ES6 to ES5.
 
 
+// Install Node Packages
+
+// npm install - installs node packages locally, which creates a folder called node_modules
+// -d appendage dev dependencies allows other devs to install the node packages more easily, they can simply run npm install, it instructs npm to look inside the package json.
+
+
+// touch .babelrc (creates file that stores the version of JS your using)
+
+// Babel Source Lib
+
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src -d lib"
+}
+
+// added to the package json, this script intialises the transpilation
+
+npm run build // calls the build script in the package json
+
+// this writes the transpilation the the main.js which has the same name as the original file inside the lib folder
+// all of the java inside the src file will be transpiled to the lib - main.js
+
 
