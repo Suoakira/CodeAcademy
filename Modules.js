@@ -46,3 +46,24 @@ module.exports = { // this can be called as we defined the object above
 const Airplane = require('./2-airplane.js');
 console.log(Airplane.displayAirplane()); // calls from the first object
 
+// export default
+
+// export default ES6 syntax
+
+let Airplane = {};
+
+export default Airplane;
+
+Airplane.availableAirplanes = [
+    {
+        name: 'AeroJet',
+        fuelCapacity: 800
+    },
+    {
+        name: 'SkyJet',
+        fuelCapacity: 500
+    }
+]; // dont need toi define as it is a key in the object model
+
+
+// import
