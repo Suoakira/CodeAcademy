@@ -67,3 +67,16 @@ Airplane.availableAirplanes = [
 
 
 // import
+
+import Airplane from './airplane';
+
+function displayFuelCapacity() {
+    Airplane.availableAirplanes.forEach(function (element) { // first time seeing this sort of syntax
+        console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
+    });
+}
+
+displayFuelCapacity();
+
+// Named Exports
+
