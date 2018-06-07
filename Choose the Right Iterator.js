@@ -8,7 +8,7 @@ artists.forEach(function(artist) {
 
 let numbers = [1, 2, 3, 4, 5];
 
-let squareNumbers = numbers.map(function(number) { // maps numbers in this case squares them
+let squareNumbers = numbers.map(function(number) { // maps numbers in this case squares them change 5
   return number * number;
 });
 
