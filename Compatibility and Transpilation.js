@@ -1,7 +1,7 @@
-// Compatibility and Transpilation change
+git// Compatibility and Transpilation change
 
 // caniuse shows compatibility of diffrent browsers with versions of javascript e.g ES5 ES6 etc
-// Babel is a javascript library, which converts ES6 syntax into ES5 syntax
+// Babel is a javascript library, which converts ES6 syntax into ES5 syntax change 3
 
 // ES5 vs ES6 Syntax
 
@@ -37,7 +37,7 @@ var sauce = "Eggs and cheese"; // ES6 syntax
 
 var carbonar = "You can make carbonara with " + pasta + "," + meat + " and a sauce made with " + sauce + ".";
 
-// Transpilation with Babel
+// Transpilation with Babel change 1
 
 // npm install babel-cli  (installs babel client)
 // npm install babel-preset-env  (installs a babel required pakage)
