@@ -1,6 +1,6 @@
 // Arrays change
 
-let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
+let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle']; // change 4
 
 console.log(bucketList);
 
