@@ -1,7 +1,7 @@
 // Introduction to Class's
 
 /* 
-* Java is an object orientated coding language
+* Java is an object orientated coding language change 2
 */
 
 class Dog {
