@@ -13,7 +13,7 @@ const pressPowerButton = () => {
 };
 
 pressPowerButton();
-// Output: Calculator turning on.
+// Output: Calculator turning on. change 1
 
 pressPowerButton();
 // Output: Calculator turning off.
