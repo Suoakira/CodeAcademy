@@ -1,4 +1,4 @@
-// Introduction to Iterators change
+// Introduction to Iterators change test
 
 let artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
