@@ -4,7 +4,7 @@ let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggl
 
 console.log(bucketList);
 
-// Create an Array test
+// Create an Array test2
 
 let newYearsResolutions = ["this", "that", "other"];
 console.log(newYearsResolutions);
