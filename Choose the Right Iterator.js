@@ -3,7 +3,7 @@
 let artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
 artists.forEach(function(artist) {
-  console.log(artist + ' is one of my favorite artists.'); // forEach part of the array it adds another line
+  console.log(artist + ' is one of my favorite artists.'); // forEach part of the array it adds another line2
 });
 
 let numbers = [1, 2, 3, 4, 5];
