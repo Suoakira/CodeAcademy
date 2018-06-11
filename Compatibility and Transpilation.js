@@ -18,7 +18,7 @@ const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce ma
 // Set the variable below to a number
 let esFivePercentageSupport = 97.43;
 
-// Set the variable below to a number
+// Set the variable below to a number2
 let esSixTemplateLiterals = 87.68;
 
 /* this shows a 
