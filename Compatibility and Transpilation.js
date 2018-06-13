@@ -3,7 +3,7 @@ git// Compatibility and Transpilation change
 // caniuse shows compatibility of diffrent browsers with versions of javascript e.g ES5 ES6 etc
 // Babel is a javascript library, which converts ES6 syntax into ES5 syntax change 3
 
-// ES5 vs ES6 Syntax test
+// ES5 vs ES6 Syntax test 1
 
 var pasta = "Spaghetti"; // ES5 syntax
 
