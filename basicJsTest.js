@@ -68,7 +68,7 @@ calcul(1, 10)
  	if (num % 2 == 0) {
  		console.log("Yes im Even");
  	} else {
- 		console.log("Once you eliminate the impossible, whatever remains,no matter how improbable, must be the truth, Yes it must be Odd")
+ 		console.log("Once you eliminate the impossible, whatever remains,no matter how improbable, must be the truth, Yes it must be Odd.")
 
  	}
  }
