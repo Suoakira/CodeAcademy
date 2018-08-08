@@ -116,3 +116,33 @@ console.log(countChar("kakkerlak", "k"));
 // → 4
 
 
+// return function 
+
+var x = myFunction(4, 3);    // Function is called, return value will end up in x
+
+function myFunction(a, b) {
+    return a * b;            // Function returns the product of a and b
+}
+
+// converter 
+
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius;
+
+//formatted date
+
+
+  function showDate() {
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+
+    // print messege to status bar
+
+
+   window.status = "<TYPE YOUR MESSAGE>"; 
+ 
