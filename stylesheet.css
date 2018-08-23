@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FEFCD7;
+	font-family: 'lato', sans-serif;
+}
+
+#page-wrapper {
+	position: relative;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+/** this if for global class tyleing **/
+
+.btn {
+	padding: 0 20px;
+	height: 50px;
+	font-size: 1em;
+	font-weight: 900;
+	text-transform: uppercase;
+	border: 3px black solid;
+	border-radius: 2px;
+	background: transparent;
+	cursor: pointer;
+}
