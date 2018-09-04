@@ -1,25 +1,32 @@
-function range(start, end, step = start < end ? 1 : -1) {
-  let array = [];
 
-  if (step > 0) {
-    for (let i = start; i <= end; i += step) array.push(i);
-  } else {
-    for (let i = start; i >= end; i += step) array.push(i);
-  }
-  return array;
+
+
+
+let katzDeliLine = ["Jake", "Steve", "Kira"]
+
+function takeANumber(line, name) {
+	line.push(name);
+	return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
-function sum(array) {
-  let total = 0;
-  for (let value of array) {
-    total += value;
-  }
-  return total;
+
+function nowServing(line) {
+	if (line.length === 0) {
+		return "There is nobody waiting to be served!";
+	} else {
+		return `Currently serving ${line.shift()}.`;
+	}
 }
 
-console.log(range(1, 10))
-// → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-console.log(range(5, 2, -1));
-// → [5, 4, 3, 2]
-console.log(sum(range(1, 10)));
-// → 55
+function currentLine(line) {
+	if (line.length === 0) {
+		return "The line is currently empty.";
+	} else {
+		let sentence = ["The line is currently: "]; 
+		for (let i = 0; i < line.length; i++) {
+			line[line.length - 1] !== line[i] ? sentence.push(`${i + 1}. ${line[i]}, `) : sentence.push(`${i + 1}. ${line[i]}`);
+		}
+		return sentence.join("");
+	}
+}
+
